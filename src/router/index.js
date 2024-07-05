@@ -7,8 +7,13 @@ const router = createRouter({
       path: '/',
       name: 'CadUser',
       component: () => import('../views/cad-user.vue')
+    },
+    {
+      path: '/perfil',
+      name: 'PerfUser',
+      component: () => import('../views/perf-user.vue'),
     }
-  ]
+  ] 
 })
 
 export default router
