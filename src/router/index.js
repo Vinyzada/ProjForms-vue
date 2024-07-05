@@ -5,8 +5,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Formulario',
-      component: () => import('../views/formulario.vue')
+      name: 'CadUser',
+      component: () => import('../views/cad-user.vue')
     }
   ]
 })
