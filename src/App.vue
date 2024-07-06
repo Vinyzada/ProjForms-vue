@@ -187,7 +187,7 @@ function validar(){
     <div class="w-96 h-54 bg-blue-300 font-bold text-white flex flex-col items-start rounded-xl p-10">
       <h1>As senhas nao sao compativeis</h1>
       <button class="bg-blue-500 py-2 px-5 rounded-xl my-5" @click="alertPin=!alertPin">OK</button>
-      <button class="text-blue-200 text-sm">Esqueci minha senha</button>=1  
+      <button class="text-blue-200 text-sm">Esqueci minha senha</button> 
     </div>
   </div>
 </template>
